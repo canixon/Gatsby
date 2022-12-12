@@ -6,7 +6,7 @@ const Topnav = () => {
     return (
         <div className={topStyles.navWrapper}>
 
-        <div className={topStylesmainNav}>
+        <div className={topStyles.mainNav}>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>

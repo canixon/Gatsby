@@ -3,7 +3,8 @@
     width: 100vw;
     padding-top: 1em;
     padding-bottom: 1em;
-    position: fixed; top: 0;
+    position: fixed; 
+    top: 0;
     left: 0;
     z-index: 100;
 }
@@ -11,7 +12,7 @@
 .navWrapper a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .1em;
 }

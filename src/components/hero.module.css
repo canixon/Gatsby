@@ -1,5 +1,5 @@
 .hero {
-	background-image: url();
+	background-image: url('../images/icon.jpg');
 	height: 60vh;
 	background-size: cover;
 	background-position: center;

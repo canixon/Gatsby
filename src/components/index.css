@@ -44,3 +44,35 @@ Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 	padding: .5em;
 	color: #fff;
 }
+.cardGroup {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin: 50px 40px 100px;
+	grid-gap: 40px;
+	justify-items: center;
+}
+.Cards h2{
+	margin: 50px 20px;
+	font-size: 2em;
+	text-align: center;
+}
+.cardOne{
+	 background-image: url(../images/image1.jpg);
+	 background-repeat: no-repeat;
+	 background-size: contain;
+}
+.cardTwo{
+	background-image: url(../images/image2.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.cardThree{
+	background-image: url(../images/image3.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+@media (max-width: 1060px){
+	.cardGroup{
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
